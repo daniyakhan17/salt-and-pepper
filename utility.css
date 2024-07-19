@@ -1,58 +1,11 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 html{
-    font-size: 62.5%;
-}
-:root{
-    --red:#9f0f0f;
-    --green:#28a745;
-    --black:#000000;
-    --white:#ffffff;
-
+    62.5%
 }
 body{
     background-color: #000000;
-}
-.d-flex{
-    display:flex;
-}
-.flex-wrap{
-    flex-wrap: wrap;
-}
-.justiy-contetnt{
-    justify-content: center;
-}
-.justify-between{
-    justify-content:space-between;
-}
-.justify-around{
-    justify-content: space-around;
-
-}
-.justify-evenly{
-    justify-content: space-evenly;
-}
-.item-center{
-    align-items: center;
-}
-.flex-column{
-    flex-direction: column;
-}
-.gap-1{
-    gap: 5px;
-}
-.gap-2{
-    gap: 10px;
-}
-.gap-3{
-    gap: 15px;
-}
-.gap-4{
-    gap: 20px;
-}
-.gap-5{
-    gap: 25px;
 }
