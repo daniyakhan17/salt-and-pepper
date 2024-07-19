@@ -1,11 +1,93 @@
+@font-face {
+    font-family:apercu-light;
+    src: url(./fonts/apercu\ light.html);
+}
+@font-face {
+    font-family: apercu-medium;
+    src: url(./fonts/apercu\ medium.html);
+}
+@font-face {
+    font-family: apercu-bold;
+    src: url(./fonts/apercu\ bold.html);
+}
+:root{
+    --red: #ed1c24;
+    --white: #ffffff;
+    --black: #000000;
+    --green: #28a745;
+    --light: apercu-light;
+}
 *{
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 html{
     font-size: 62.5%;
+    font-family:var(--light) ;
 }
-.logo-1{
-    width: 84px;;
+body{
+    background:var(--black) ;
+    color: var(--white);
 }
+/* utility class started? */
+/* d-flex started */
+.d-flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-evenly{
+    justify-content:space-evenly;
+}
+.item-center{
+    align-items: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+.gap-1{
+    gap: 5px;
+}
+.gap-2{
+    gap: 10px;
+}
+.gaps-3{
+    gap: 15px;
+}
+.gap-4{
+    gap: 20px;
+}
+.gap-5{
+    gap: 25px;
+}
+.m-1{
+    margin:5px;
+}
+.mx-1{
+    margin: 0px 5px;
+}
+.my-1{
+    margin: 10px 0px;
+}
+.mt-5{
+    margin-top: 20px;
+}
+.rounded-sm{
+    border-radius: 20px;
+}
+.text-none{
+    text-decoration: none;
+    color: var(--white);
+}
+/* utility class ended */
