@@ -41,4 +41,38 @@ body{
     font-size: 1.5rem;
 }
 /* navbar ended */
-
+@font-face {
+    font-family:"futurak";
+    src: url(./futurak.ttf);
+}
+.salt{
+    font-family:futurak;
+    font-size:5rem;
+}
+.text-restaurant{
+    font-size: 2rem;
+}
+.font-size{
+    font-size: 2rem;
+}
+.bg-colour{
+    background-color:transparent;
+}
+.img-restaurant{
+    background-color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 3px;
+}
+.restaurant-btn{
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    padding: 15px 55px;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    color: #ffffff;
+    width: 200px;
+}
+.font-text{
+    font-size: 4rem;
+    word-spacing: 2rem;
+}

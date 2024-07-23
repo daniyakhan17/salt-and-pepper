@@ -90,4 +90,7 @@ body{
     text-decoration: none;
     color: var(--white);
 }
+.text-align{
+    text-align: center;
+}
 /* utility class ended */
