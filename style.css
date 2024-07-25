@@ -89,3 +89,22 @@ body{
 .children-3{
     font-size:2rem;
 }
+.order-btn2{
+    background-color:#000000;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    padding: 20px 25px;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    margin-top: 40px;
+    margin-left: 80px;
+
+}
+.image-1{
+    margin: 0px 600px;
+    display: grid;
+    animation: top;
+
+    
+  
+}
